@@ -10,6 +10,6 @@ INSERT INTO votes (party, votes) VALUES
     ('SVP', 0),
     ('SP', 0),
     ('FDP', 0),
-    ('CVP', 0),
+    ('Die Mitte, 0),
     ('GLP', 0)
 ON CONFLICT (party) DO NOTHING;
